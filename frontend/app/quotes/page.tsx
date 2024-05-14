@@ -21,7 +21,7 @@ export default function Quotes() {
     if (vehicle) setVehicle(JSON.parse(vehicle));
 
     console.log("quotes", quotes);
-  }, []);
+  });
 
   return (
     <main className="flex gap-8 flex-col items-start p-24 max-w-screen-md justify-center mx-auto my-0">
