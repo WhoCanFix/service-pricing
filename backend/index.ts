@@ -1,6 +1,6 @@
 import app from "./app";
 import getDbInstance, { init } from "./db/index";
-const port = 3000;
+const port = 8080;
 
 (async () => {
   const dbInstance = await getDbInstance()

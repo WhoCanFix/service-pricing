@@ -1,0 +1,460 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 15 Apr 2024 14:51:41 GMT
+ */
+
+:root {
+  --logo-square-dark: https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/tokens/logos/icon_dark_whocanfixmycar.png;
+  --logo-square-default: https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/tokens/logos/icon_light_whocanfixmycar.png;
+  --logo-dark: https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/tokens/logos/logo_dark_whocanfixmycar.png;
+  --logo-default: https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/tokens/logos/logo_light_whocanfixmycar.png;
+  --reg-plate-default: https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/tokens/regPlate/regPlate_whocanfixmycar.png;
+  --border-radius-pill: 20rem;
+  --border-radius-full: 9999px;
+  --border-radius-sharp: 0;
+  --opacity-100: 1;
+  --opacity-90: 0.9;
+  --opacity-80: 0.8;
+  --opacity-70: 0.7;
+  --opacity-60: 0.6;
+  --opacity-50: 0.5;
+  --opacity-40: 0.4;
+  --opacity-30: 0.3;
+  --opacity-20: 0.2;
+  --opacity-10: 0.1;
+  --opacity-0: 0;
+  --font-weight-sans-display: 700;
+  --font-weight-sans-bold: 700;
+  --font-weight-sans-medium: 500;
+  --font-weight-sans-regular: 400;
+  --border-width-none: 0px;
+  --border-width-300: 4px;
+  --border-width-200: 2px;
+  --border-width-100: 1px;
+  --line-height-loose: 2;
+  --line-height-relaxed: 1.75;
+  --line-height-normal: 1.5;
+  --line-height-snug: 1.25;
+  --line-height-tight: 1.125;
+  --line-height-none: 1;
+  --letter-spacing-wider: 0.01em;
+  --letter-spacing-wide: 0.005em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-tight: -0.005em;
+  --letter-spacing-tighter: -0.01em;
+  --font-family-registration: 'Charles Wright';
+  --font-family-sans: 'GT Walsheim';
+  --base: 16px;
+  --colors-tertiary-500: #ECF1F4;
+  --colors-secondary-500: #20334B;
+  --colors-interactive-neutral-300: #F9FCFE; /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-neutral-100: #EDF0F1; /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-link-inline-300: #688EA1;
+  --colors-interactive-link-inline-200: #688EA1;
+  --colors-interactive-link-inline-100: #386C87;
+  --colors-surface-informative-200: #f7f9fb; /* Background (low contrast in a light theme, and high contrast in a dark theme) for informative messages */
+  --colors-black: #000000;
+  --colors-white: #ffffff;
+  --colors-white-tint-900: #ffffffe6;
+  --colors-white-tint-800: #ffffffcc;
+  --colors-white-tint-700: #ffffffb3;
+  --colors-white-tint-600: #ffffff99;
+  --colors-white-tint-500: #ffffff80;
+  --colors-white-tint-400: #ffffff66;
+  --colors-white-tint-300: #ffffff4d;
+  --colors-white-tint-200: #ffffff33;
+  --colors-white-tint-100: #ffffff1a;
+  --colors-black-tint-900: #000000e6;
+  --colors-black-tint-800: #000000cc;
+  --colors-black-tint-700: #000000b3;
+  --colors-black-tint-600: #00000099;
+  --colors-black-tint-500: #00000080;
+  --colors-black-tint-400: #00000066;
+  --colors-black-tint-300: #0000004d;
+  --colors-black-tint-200: #00000033;
+  --colors-black-tint-100: #0000001a;
+  --colors-yellow-500: #FFA900; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --colors-red-500: #c6000c; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --colors-registration-yellow-500: #FDD62E; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --colors-blue-500: #136AF6; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --colors-green-500: #007517; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --colors-light-grey-500: #ECF1F4; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --colors-dark-grey-500: #5e6b7d; /* Using modifiers - you want a middle grey to do +/- operations  */
+  --registration-500: 700 var(--font-size-3xl)/var(--line-height-snug) var(--font-family-registration);
+  --registration-400: 700 var(--font-size-lg)/var(--line-height-snug) var(--font-family-registration);
+  --registration-300: 700 var(--font-size-base)/var(--line-height-snug) var(--font-family-registration);
+  --registration-200: 700 var(--font-size-sm)/var(--line-height-snug) var(--font-family-registration);
+  --registration-100: 700 var(--font-size-xs)/var(--line-height-snug) var(--font-family-registration);
+  --link-350: var(--font-weight-sans-bold) var(--font-size-base)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --link-300: var(--font-weight-sans-medium) var(--font-size-base)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --link-250: var(--font-weight-sans-bold) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --link-200: var(--font-weight-sans-medium) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --link-150: var(--font-weight-sans-bold) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --link-100: var(--font-weight-sans-medium) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --overlay-100-opacity: 0.6;
+  --overlay-100-fill: var(--colors-black);
+  --meta-200: var(--font-weight-sans-regular) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for bylines and date time */
+  --meta-100: var(--font-weight-sans-regular) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for bylines and date time */
+  --button-300: var(--font-weight-sans-bold) var(--font-size-base)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --button-200: var(--font-weight-sans-bold) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --button-100: var(--font-weight-sans-bold) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for button text and standalone links */
+  --label-400: var(--font-weight-sans-medium) var(--font-size-lg)/var(--line-height-normal) var(--font-family-sans); /* Used for text labels such as for menus and lists */
+  --label-300: var(--font-weight-sans-medium) var(--font-size-base)/var(--line-height-normal) var(--font-family-sans); /* Used for text labels such as for menus and lists */
+  --label-200: var(--font-weight-sans-medium) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for text labels such as for menus and lists */
+  --label-100: var(--font-weight-sans-medium) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for text labels such as for menus and lists */
+  --label-50: var(--font-weight-sans-medium) 8px/var(--line-height-normal) var(--font-family-sans); /* Used for text labels such as for menus and lists */
+  --body-550: var(--font-weight-sans-bold) var(--font-size-xl)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-500: var(--font-weight-sans-regular) var(--font-size-xl)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-450: var(--font-weight-sans-bold) var(--font-size-lg)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-400: var(--font-weight-sans-regular) var(--font-size-lg)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-350: var(--font-weight-sans-bold) var(--font-size-base)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-300: var(--font-weight-sans-regular) var(--font-size-base)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-250: var(--font-weight-sans-bold) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-200: var(--font-weight-sans-regular) var(--font-size-sm)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-150: var(--font-weight-sans-bold) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --body-100: var(--font-weight-sans-regular) var(--font-size-xs)/var(--line-height-normal) var(--font-family-sans); /* Used for text inputs and banners */
+  --lead-400: var(--font-weight-sans-medium) var(--font-size-3xl)/var(--line-height-tight) var(--font-family-sans);
+  --lead-300: var(--font-weight-sans-medium) var(--font-size-2xl)/var(--line-height-tight) var(--font-family-sans);
+  --lead-200: var(--font-weight-sans-medium) var(--font-size-xl)/var(--line-height-tight) var(--font-family-sans);
+  --lead-100: var(--font-weight-sans-medium) var(--font-size-lg)/var(--line-height-tight) var(--font-family-sans);
+  --subheading-500: var(--font-weight-sans-bold) var(--font-size-2xl)/var(--line-height-tight) var(--font-family-sans); /* Used for sub heading  text such as for modals and drawers */
+  --subheading-400: var(--font-weight-sans-bold) var(--font-size-xl)/var(--line-height-tight) var(--font-family-sans); /* Used for sub heading  text such as for modals and drawers */
+  --subheading-300: var(--font-weight-sans-bold) var(--font-size-lg)/var(--line-height-tight) var(--font-family-sans); /* Used for sub heading  text such as for modals and drawers */
+  --subheading-200: var(--font-weight-sans-bold) var(--font-size-base)/var(--line-height-tight) var(--font-family-sans); /* Used for sub heading  text such as for modals and drawers */
+  --subheading-100: var(--font-weight-sans-bold) var(--font-size-sm)/var(--line-height-tight) var(--font-family-sans); /* Used for sub heading  text such as for modals and drawers */
+  --heading-800: var(--font-weight-sans-display) var(--font-size-9xl)/var(--line-height-tight) var(--font-family-sans); /* Used for H1 - largest */
+  --heading-700: var(--font-weight-sans-display) var(--font-size-7xl)/var(--line-height-tight) var(--font-family-sans); /* Used for H1 - larger */
+  --heading-600: var(--font-weight-sans-display) var(--font-size-5xl)/var(--line-height-tight) var(--font-family-sans); /* Used for H1 */
+  --heading-500: var(--font-weight-sans-display) var(--font-size-3xl)/var(--line-height-tight) var(--font-family-sans); /* Used for H2 */
+  --heading-400: var(--font-weight-sans-display) var(--font-size-2xl)/var(--line-height-tight) var(--font-family-sans); /* Used for H3  */
+  --heading-300: var(--font-weight-sans-display) var(--font-size-xl)/var(--line-height-tight) var(--font-family-sans); /* Used for H4 */
+  --heading-200: var(--font-weight-sans-display) var(--font-size-lg)/var(--line-height-tight) var(--font-family-sans); /* Used for H5 */
+  --heading-100: var(--font-weight-sans-display) var(--font-size-base)/var(--line-height-tight) var(--font-family-sans); /* Used for H6 */
+  --inner-shadow-200: inset 0 2px 0 0 rgba(255, 255, 255, 0.4);
+  --inner-shadow-100: inset 0 2px 0 1px rgba(0, 0, 0, 0.4);
+  --box-shadow-600: 0 20px 32px 0 rgba(0, 0, 0, 0.08); /* Modals and dialogs */
+  --box-shadow-500: 0 16px 24px 0 rgba(0, 0, 0, 0.08); /* Pickers and popovers */
+  --box-shadow-400: 0 8px 16px 0 rgba(0, 0, 0, 0.08); /* Hover states of cards and button hover states */
+  --box-shadow-300: 0 4px 8px 0 rgba(0, 0, 0, 0.08); /* Navigation menu bars */
+  --box-shadow-200: 0 2px 4px 0 rgba(0, 0, 0, 0.08); /* Notification badges */
+  --box-shadow-100: 0 0.5px 2px 0 rgba(0, 0, 0, 0.08); /* Default states of cards and active states of buttons */
+  --border-width-default: var(--border-width-100);
+  --font-size-12xl: 80px;
+  --font-size-11xl: 64px;
+  --font-size-10xl: 56px;
+  --font-size-9xl: 48px;
+  --font-size-8xl: 44px;
+  --font-size-7xl: 40px;
+  --font-size-6xl: 36px;
+  --font-size-5xl: 32px;
+  --font-size-4xl: 28px;
+  --font-size-3xl: 24px;
+  --font-size-2xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-base: var(--base);
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --line-height-12xl: 80px;
+  --line-height-11xl: 64px;
+  --line-height-10xl: 56px;
+  --line-height-9xl: 48px;
+  --line-height-8xl: 44px;
+  --line-height-7xl: 40px;
+  --line-height-6xl: 36px;
+  --line-height-5xl: 32px;
+  --line-height-4xl: 28px;
+  --line-height-3xl: 24px;
+  --line-height-2xl: 22px;
+  --line-height-xl: 20px;
+  --line-height-lg: 18px;
+  --line-height-base: var(--base);
+  --line-height-sm: 14px;
+  --line-height-xs: 12px;
+  --dimension-zero-5: 2px;
+  --dimension-96: 384px;
+  --dimension-80: 320px;
+  --dimension-72: 288px;
+  --dimension-64: 256px;
+  --dimension-60: 240px;
+  --dimension-56: 224px;
+  --dimension-52: 208px;
+  --dimension-48: 192px;
+  --dimension-44: 176px;
+  --dimension-40: 160px;
+  --dimension-36: 144px;
+  --dimension-32: 128px;
+  --dimension-28: 112px;
+  --dimension-24: 96px;
+  --dimension-20: 80px;
+  --dimension-16: 64px;
+  --dimension-14: 56px;
+  --dimension-12: 48px;
+  --dimension-11: 44px;
+  --dimension-10: 40px;
+  --dimension-9: 36px;
+  --dimension-8: 32px;
+  --dimension-7: 28px;
+  --dimension-6: 24px;
+  --dimension-5: 20px;
+  --dimension-4: var(--base);
+  --dimension-3: 12px;
+  --dimension-2: 8px;
+  --dimension-1: 4px;
+  --dimension-0: 0px;
+  --colors-tertiary-700: lch(56.9 1.47 237);
+  --colors-tertiary-600: lch(80.6 2.08 237);
+  --colors-tertiary-300: lch(95.6 2.08 237);
+  --colors-tertiary-200: lch(96.9 1.47 237);
+  --colors-secondary-700: lch(12.3 10.5 264);
+  --colors-secondary-600: lch(17.4 14.9 264);
+  --colors-secondary-300: lch(32.4 14.9 264);
+  --colors-secondary-200: lch(52.3 10.5 264);
+  --colors-primary-500: var(--colors-blue-500);
+  --colors-interactive-neutral-500: lch(59.3 0.92 240); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-neutral-400: lch(88.9 1.37 240); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-neutral-200: lch(99 1.3 240); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-selector-selected: var(--colors-tertiary-500);
+  --colors-interactive-selector-rest: var(--colors-white);
+  --colors-interactive-slider-icon: var(--colors-white);
+  --colors-interactive-radio-checkbox-inner-active: var(--colors-white);
+  --colors-interactive-switch-inner-active: var(--colors-white);
+  --colors-interactive-reg-300: var(--colors-registration-yellow-500); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-secondary-300: var(--colors-secondary-500); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-secondary-200: lch(32.4 14.9 264); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-secondary-1: lch(52.3 10.5 264);
+  --colors-interactive-primary-300: var(--colors-green-500); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-positive-300: var(--colors-green-500); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-warning-300: var(--colors-yellow-500); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-negative-300: var(--colors-red-500); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-inverse-500: var(--colors-white-tint-800); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-inverse-400: var(--colors-white-tint-700); /* Background colour applied to the hover state of the Solid button, & the border colour of the outlined button */
+  --colors-interactive-inverse-300: var(--colors-white); /* Background colour applied to the base state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-inverse-200: var(--colors-white-tint-200); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-inverse-100: var(--colors-white-tint-100); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-focus-200: rgba(255, 255, 255, 50%); /* Inverse focus tabbing  */
+  --colors-interactive-focus-100: rgba(19, 106, 246, 0.5); /* Focus tabbing */
+  --colors-interactive-input-background-hover: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-background-disabled: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-background-read-only: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-background-invalid: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-background-valid: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-background-base: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-background-active: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-border-disabled: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-border-read-only: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-border-base: var(--colors-light-grey-500); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-200: var(--colors-dark-grey-500); /* Background & border colours applied to the unselected state of the switch, the checkbox, & radio components */
+  --colors-interactive-input-50: var(--colors-white); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-ink-subtle: var(--colors-dark-grey-500); /* Subheadlines, labels and secondary text */
+  --colors-ink-interactive: var(--colors-green-500);
+  --colors-ink-inverse: var(--colors-white); /* Text and icons where the recommended contrast against the background cannot be achieved */
+  --colors-ink-light: var(--colors-white); /* Used when the same light colour value is required across all colour themes */
+  --colors-ink-secondary-100: var(--colors-secondary-500); /* Secondary brand colour applied to text and icons (e.g. icons in outlined buttons) */
+  --colors-surface-background: var(--colors-white); /* Page background */
+  --colors-surface-200: var(--colors-light-grey-500); /* Extended scale of component backgrounds */
+  --colors-surface-100: var(--colors-white); /* Component backgrounds (e.g. card) */
+  --colors-yellow-900: lch(15.3 16.7 72.2);
+  --colors-yellow-800: lch(30.6 33.5 72.2);
+  --colors-yellow-700: lch(45.9 50.2 72.2);
+  --colors-yellow-600: lch(61.2 66.9 72.2);
+  --colors-yellow-400: lch(81.2 66.9 72.2);
+  --colors-yellow-300: lch(85.9 50.2 72.2);
+  --colors-yellow-200: lch(90.6 33.5 72.2);
+  --colors-yellow-100: lch(95.3 16.7 72.2);
+  --colors-red-900: lch(8.43 17.1 38.7);
+  --colors-red-800: lch(16.9 34.3 38.7);
+  --colors-red-700: lch(25.3 51.4 38.7);
+  --colors-red-600: lch(33.7 68.5 38.7);
+  --colors-red-400: lch(53.7 68.5 38.7);
+  --colors-red-300: lch(65.3 51.4 38.7);
+  --colors-red-200: lch(76.9 34.3 38.7);
+  --colors-red-100: lch(88.4 17.1 38.7);
+  --colors-registration-yellow-900: lch(17.4 15.9 87.8);
+  --colors-registration-yellow-800: lch(34.8 31.7 87.8);
+  --colors-registration-yellow-700: lch(52.3 47.6 87.8);
+  --colors-registration-yellow-600: lch(69.7 63.5 87.8);
+  --colors-registration-yellow-400: lch(89.7 63.5 87.8);
+  --colors-registration-yellow-300: lch(92.3 47.6 87.8);
+  --colors-registration-yellow-200: lch(94.8 31.7 87.8);
+  --colors-registration-yellow-100: lch(97.4 15.9 87.8);
+  --colors-blue-900: lch(9.41 16.1 284);
+  --colors-blue-800: lch(18.8 32.2 284);
+  --colors-blue-700: lch(28.2 48.2 284);
+  --colors-blue-600: lch(37.6 64.3 284);
+  --colors-blue-400: lch(57.6 64.3 284);
+  --colors-blue-300: lch(68.2 48.2 284);
+  --colors-blue-200: lch(78.8 32.2 284);
+  --colors-blue-100: lch(89.4 16.1 284);
+  --colors-green-900: lch(8.49 11.8 138);
+  --colors-green-800: lch(17 23.6 138);
+  --colors-green-700: lch(25.5 35.5 138);
+  --colors-green-600: lch(34 47.3 138);
+  --colors-green-400: lch(54 47.3 138);
+  --colors-green-300: lch(65.5 35.5 138);
+  --colors-green-200: lch(77 23.6 138);
+  --colors-green-100: lch(88.5 11.8 138);
+  --colors-light-grey-900: lch(19 0.49 237);
+  --colors-light-grey-800: lch(37.9 0.98 237);
+  --colors-light-grey-700: lch(56.9 1.47 237);
+  --colors-light-grey-600: lch(75.9 1.96 237);
+  --colors-light-grey-400: lch(95.9 1.96 237);
+  --colors-light-grey-300: lch(96.9 1.47 237);
+  --colors-light-grey-200: lch(97.9 0.98 237);
+  --colors-light-grey-100: lch(99 0.49 237);
+  --colors-dark-grey-900: lch(8.92 2.39 261);
+  --colors-dark-grey-800: lch(17.8 4.77 261);
+  --colors-dark-grey-700: lch(26.8 7.16 261);
+  --colors-dark-grey-600: lch(35.7 9.54 261);
+  --colors-dark-grey-400: lch(55.7 9.54 261);
+  --colors-dark-grey-300: lch(66.8 7.16 261);
+  --colors-dark-grey-200: lch(77.8 4.77 261);
+  --colors-dark-grey-100: lch(88.9 2.39 261);
+  --sizing-zero-5: var(--dimension-zero-5);
+  --sizing-40: var(--dimension-40);
+  --sizing-28: var(--dimension-28);
+  --sizing-20: var(--dimension-20);
+  --sizing-16: var(--dimension-16);
+  --sizing-12: var(--dimension-12);
+  --sizing-10: var(--dimension-10);
+  --sizing-8: var(--dimension-8);
+  --sizing-6: var(--dimension-6);
+  --sizing-5: var(--dimension-5);
+  --sizing-4: var(--dimension-4);
+  --sizing-3: var(--dimension-3);
+  --sizing-2: var(--dimension-2);
+  --sizing-1: var(--dimension-1);
+  --sizing-0: var(--dimension-0);
+  --spacing-zero-5: var(--dimension-zero-5);
+  --spacing-40: var(--dimension-40);
+  --spacing-28: var(--dimension-28);
+  --spacing-20: var(--dimension-20);
+  --spacing-16: var(--dimension-16);
+  --spacing-12: var(--dimension-12);
+  --spacing-10: var(--dimension-10);
+  --spacing-8: var(--dimension-8);
+  --spacing-6: var(--dimension-6);
+  --spacing-5: var(--dimension-5);
+  --spacing-4: var(--dimension-4);
+  --spacing-3: var(--dimension-3);
+  --spacing-2: var(--dimension-2);
+  --spacing-1: var(--dimension-1);
+  --spacing-0: var(--dimension-0);
+  --border-radius-input: 2px;
+  --border-radius-rounded-500: var(--dimension-5);
+  --border-radius-rounded-400: var(--dimension-4);
+  --border-radius-rounded-300: var(--dimension-3);
+  --border-radius-rounded-200: var(--dimension-2);
+  --border-radius-rounded-100: var(--dimension-1);
+  --border-radius-rounded-50: 2px;
+  --box-shadow-focus: 0 0 0 4px var(--colors-interactive-focus-100);
+  --colors-primary-700: lch(28.2 48.2 284);
+  --colors-primary-600: lch(40 68.3 284);
+  --colors-primary-300: lch(55 68.3 284);
+  --colors-primary-200: lch(68.2 48.2 284);
+  --colors-interactive-selector-border: var(--colors-surface-200);
+  --colors-interactive-selector-hover: var(--colors-tertiary-200);
+  --colors-interactive-slider-track: var(--colors-surface-200);
+  --colors-interactive-radio-checkbox-border: var(--colors-interactive-input-200);
+  --colors-interactive-reg-500: var(--colors-registration-yellow-700); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-reg-400: var(--colors-registration-yellow-600); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-reg-200: var(--colors-registration-yellow-300); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-reg-100: var(--colors-registration-yellow-200); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-secondary-500: lch(12.3 10.5 264); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-secondary-400: lch(17.4 14.9 264); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-secondary-100: var(--colors-secondary-200); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-primary-500: lch(25.5 35.5 138); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-primary-400: lch(36.1 50.3 138); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-primary-200: lch(51.1 50.3 138); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-primary-100: lch(65.5 35.5 138); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-positive-500: var(--colors-green-700); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-positive-400: var(--colors-green-600); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-positive-200: var(--colors-green-300); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-positive-100: var(--colors-green-100); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-warning-500: var(--colors-yellow-700); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-warning-400: var(--colors-yellow-600); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-warning-200: var(--colors-yellow-300); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-warning-100: var(--colors-yellow-200); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-negative-500: var(--colors-red-700); /* Background colour applied to the active state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-negative-400: var(--colors-red-600); /* Background colour applied to the hover state of the solid button, & the border colour of the outlined button */
+  --colors-interactive-negative-200: var(--colors-red-300); /* Background colour applied to the loading state of all buttons, & the active state of the outlined & minimal button */
+  --colors-interactive-negative-100: var(--colors-red-100); /* Background colour applied to the hover state of the outlined & minimal button */
+  --colors-interactive-disabled-200: var(--colors-dark-grey-200); /* Disabled state */
+  --colors-interactive-disabled-100: var(--colors-light-grey-300); /* Disabled state */
+  --colors-interactive-visited: var(--colors-blue-800); /* Visited state */
+  --colors-interactive-input-border-active: var(--colors-light-grey-600); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-500: var(--colors-blue-700); /* Active state background and border for selection controls, and input components */
+  --colors-interactive-input-400: var(--colors-blue-600); /* Background & border colours applied to the Selected state of the Switch, the checkbox, & radio components */
+  --colors-interactive-input-300: var(--colors-blue-200); /* Background colour applied to the ‘feedback’ of the checkbox, & radio components */
+  --colors-interactive-input-100: var(--colors-light-grey-200); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-ink-contrast: var(--colors-dark-grey-900); /* Headlines or copy where emphasis is needed */
+  --colors-ink-base: var(--colors-dark-grey-800); /* Body and paragraph text */
+  --colors-ink-non-essential: var(--colors-dark-grey-400); /* Text and icons in an inactive (disabled) state */
+  --colors-ink-dark: var(--colors-dark-grey-900); /* Used when the same dark colour value is required across all colour themes */
+  --colors-ink-positive: var(--colors-green-600); /* Text and icons for success messages. Feedback notifications (valid) (e.g. assistive text in a text field) */
+  --colors-ink-warning: var(--colors-yellow-600); /* Text and icons for warning messages. Feedback notifications (invalid) (e.g. assistive text in a text field) */
+  --colors-ink-negative: var(--colors-red-600); /* Text and icons for error messages. Feedback notifications (invalid) (e.g. assistive text in a text field) */
+  --colors-ink-notice: var(--colors-dark-grey-700); /* Text and icons for notice messages */
+  --colors-ink-informative: var(--colors-blue-600); /* Text and icons for informative messages */
+  --colors-ink-secondary-200: var(--colors-secondary-700); /* Secondary brand colour applied to text and icons (e.g. icons in outlined buttons) */
+  --colors-ink-brand-100: var(--colors-primary-500); /* Prominent brand colour applied to text and icons (e.g. icons in outlined buttons) */
+  --colors-surface-border-200: var(--colors-dark-grey-300); /* Border dark */
+  --colors-surface-border-100: var(--colors-dark-grey-100); /* Border light */
+  --colors-surface-positive-200: var(--colors-green-100); /* Background (low contrast in a light theme, and high contrast in a dark theme) for success messages */
+  --colors-surface-positive-100: var(--colors-green-600); /* Background (high contrast in a light theme, and low contrast in a dark theme) for success messages */
+  --colors-surface-warning-200: var(--colors-yellow-100); /* Background (low contrast in a light theme, and high contrast in a dark theme) for error messages */
+  --colors-surface-warning-100: var(--colors-yellow-600); /* Background (high contrast in a light theme, and low contrast in a dark theme) for error messages */
+  --colors-surface-negative-200: var(--colors-red-100); /* Background (low contrast in a light theme, and high contrast in a dark theme) for error messages */
+  --colors-surface-negative-100: var(--colors-red-600); /* Background (high contrast in a light theme, and low contrast in a dark theme) for error messages */
+  --colors-surface-notice-200: var(--colors-dark-grey-200); /* Background (low contrast in a light theme, and high contrast in a dark theme) for notice or warning messages */
+  --colors-surface-notice-100: var(--colors-dark-grey-800); /* Background (high contrast in a light theme, and low contrast in a dark theme) for notice or warning messages */
+  --colors-surface-informative-100: var(--colors-blue-600); /* Background (high contrast in a light theme, and low contrast in a dark theme) for informative messages */
+  --colors-surface-neutral-200: var(--colors-dark-grey-200); /* Background (low contrast in a light theme, and high contrast in a dark theme) for neutral messages */
+  --colors-surface-neutral-100: var(--colors-dark-grey-100); /* Background (high contrast in a light theme, and low contrast in a dark theme) for neutral messages, & feedback notifications (e.g. banner, flag, inline message) */
+  --colors-surface-skeleton-200: var(--colors-dark-grey-200); /* Background (low contrast in a light theme, and high contrast in a dark theme) to indicate the skeleton (loading) state of a component */
+  --colors-surface-skeleton-100: var(--colors-dark-grey-100); /* Background (high contrast in a light theme, and low contrast in a dark theme) to indicate the skeleton (loading) state of a component */
+  --colors-surface-600: var(--colors-dark-grey-900); /* Component backgrounds of contrasting colours */
+  --colors-surface-500: var(--colors-dark-grey-400); /* Extended scale of component backgrounds */
+  --colors-surface-400: var(--colors-dark-grey-300); /* Extended scale of component backgrounds */
+  --colors-surface-300: var(--colors-dark-grey-200); /* Extended scale of component backgrounds */
+  --colors-surface-150: var(--colors-light-grey-200); /* Subtle backgrounds */
+  --border-radius-default: var(--border-radius-rounded-100);
+  --button-lg-border-radius: var(--border-radius-rounded-300);
+  --button-lg-vertical-padding: var(--spacing-4);
+  --button-lg-horizontal-padding: var(--spacing-5);
+  --button-md-border-radius: var(--border-radius-rounded-200);
+  --button-md-vertical-padding: var(--spacing-3);
+  --button-md-horizontal-padding: var(--spacing-4);
+  --button-sm-vertical-padding: var(--spacing-2);
+  --button-sm-horizontal-padding: var(--spacing-3);
+  --colors-interactive-selector-text-rest: var(--colors-ink-base);
+  --colors-interactive-selector-text-selected: var(--colors-ink-base);
+  --colors-interactive-slider-thumb: var(--colors-interactive-input-400);
+  --colors-interactive-slider-indicator: var(--colors-interactive-input-400);
+  --colors-interactive-radio-checkbox-rest: var(--colors-interactive-input-100);
+  --colors-interactive-radio-checkbox-active: var(--colors-interactive-input-400);
+  --colors-interactive-switch-inner-disabled: lch(82.4 1.25 237);
+  --colors-interactive-switch-inner-rest: var(--colors-surface-neutral-100);
+  --colors-interactive-switch-disabled: var(--colors-interactive-disabled-200);
+  --colors-interactive-switch-border-disabled: lch(82.4 1.25 237);
+  --colors-interactive-switch-border: var(--colors-surface-border-200);
+  --colors-interactive-switch-active: var(--colors-interactive-input-400);
+  --colors-interactive-switch-rest: var(--colors-surface-500);
+  --colors-interactive-link-primary-300: var(--colors-primary-700); /* Colour applied to the active state of an inline and standalone link */
+  --colors-interactive-link-primary-200: var(--colors-primary-700); /* Colour applied to the hover state of an inline and standalone link */
+  --colors-interactive-link-primary-100: var(--colors-primary-600); /* Colour applied to the base state of an inline and standalone link */
+  --colors-interactive-input-border-invalid: var(--colors-surface-negative-100); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-border-valid: var(--colors-surface-positive-100); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-interactive-input-border-hover: var(--colors-interactive-input-border-active); /* Background colour applied to the hover state of the text field, & the select component button, & the list item */
+  --colors-ink-brand-200: var(--colors-primary-600); /* Brand colour complimentary to inkBrand010 */
+  --colors-surface-brand-200: var(--colors-primary-700); /* Brand colour complimentary to surfaceBrand010 */
+  --colors-surface-brand-100: var(--colors-primary-600); /* Prominent brand colour applied to backgrounds e.g. a footer, or header */
+  --button-sm-border-radius: var(--border-radius-default);
+  --colors-interactive-selector-border-selected: var(--colors-surface-brand-100);
+  --colors-interactive-radio-checkbox-hover-active: lch(47 54.7 284);
+  --colors-interactive-radio-checkbox-hover: lch(96.9 3.22 284);
+  --colors-interactive-switch-border-active: lch(32 54.7 284);
+  --colors-interactive-link-informative-300: var(--colors-interactive-link-primary-300); /* Colour applied to the base state of an inline and standalone link */
+  --colors-interactive-link-informative-200: var(--colors-interactive-link-primary-200); /* Colour applied to the base state of an inline and standalone link */
+  --colors-interactive-link-informative-100: var(--colors-interactive-link-primary-100); /* Colour applied to the base state of an inline and standalone link */
+}

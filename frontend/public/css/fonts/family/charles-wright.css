@@ -1,0 +1,15 @@
+/* Reg number font */
+
+@font-face {
+  font-family: Charles Wright;
+  font-weight: 500;
+  src: url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/charles-wright/CharlesWrightMedium.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: Charles Wright;
+  font-weight: 700;
+  src: url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/charles-wright/CharlesWright-Bold.ttf')
+    format('truetype');
+}

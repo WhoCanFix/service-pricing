@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Market Sans';
+  src: url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-Thin.woff2')
+      format('woff2'),
+    url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-Thin.woff')
+      format('woff'),
+    url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-Thin.ttf')
+      format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Market Sans';
+  src: url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-Regular.woff2')
+      format('woff2'),
+    url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-Regular.woff')
+      format('woff'),
+    url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-Regular.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Market Sans';
+  src: url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-SemiBold.woff2')
+      format('woff2'),
+    url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-SemiBold.woff')
+      format('woff'),
+    url('https://wcfmc-web-assets.s3.eu-west-2.amazonaws.com/fonts/market-sans/MarketSans-SemiBold.ttf')
+      format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
