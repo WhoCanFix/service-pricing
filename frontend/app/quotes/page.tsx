@@ -16,11 +16,7 @@ export default function Quotes() {
     }
 
     const vehicle = params.get("vehicle");
-    console.log('vehckl', vehicle)
-
     if (vehicle) setVehicle(JSON.parse(vehicle));
-
-    console.log("quotes", quotes);
   });
 
   return (
